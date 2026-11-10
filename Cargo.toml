@@ -1,0 +1,9 @@
+[package]
+name = "getpriority"
+version = "0.1.0"
+edition = "2024"
+description = "The getpriority Command Queries Linux Niceness Values for Threads, Process Groups, or Users, Showing the Scheduling Preference Reported by the Kernel"
+keywords = ["linux", "syscalls", "scheduling", "parsonlabs"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
